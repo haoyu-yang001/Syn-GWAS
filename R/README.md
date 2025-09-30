@@ -1,6 +1,6 @@
-# mypkg
+# SynGWAS
 
-Minimal example R package.
+R package.
 
 ## Install
 
