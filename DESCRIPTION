@@ -1,11 +1,12 @@
-Package: mypkg
+Package: SynGWAS
 Type: Package
-Title: Minimal Example R Package
+Title: Powerful synthetic genome-wide association studies (Syn-GWAS) reveal proteomic genetic architecture in the UK Biobank Pharma Proteomics Project
 Version: 0.1.0
 Authors@R: 
-    person("Haoyu", "Name", email = "you@example.com", role = c("aut", "cre"))
-Description: A minimal example R package built on GitHub.
+    c(
+      person("Haoyu", "Yang", email = "you@example.com", role = c("aut", "cre"))
+    )
+Description: Functions for Powerful synthetic genome-wide association studies. 
 License: MIT + file LICENSE
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+LazyData: true
