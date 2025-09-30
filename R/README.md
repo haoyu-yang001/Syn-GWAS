@@ -6,4 +6,4 @@ Minimal example R package.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("haoyu-yang001/mypkg")
+remotes::install_github("haoyu-yang001/SynGWAS")
