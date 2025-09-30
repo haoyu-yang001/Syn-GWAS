@@ -1,3 +1,6 @@
+#' @description （可选）更长说明
+#' @export
+
 DGP_GRMr_gmodel_step3 <- function(n_obs,miss,tauT = 0.7, sigmaT = 0.7, pve_x = 0, pve_g = 0.0001,
                                   maf, kinsetting, Genotype_each=NULL, pre_vars_step2, GRM) {
   
