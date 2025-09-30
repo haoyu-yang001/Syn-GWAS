@@ -8,6 +8,7 @@ export(block_matrix)
 export(matrix_inv_block)
 export(matrix_inv_Amatrix)
 export(compute_score)
+export(blocks)
 
 export(score_test_SynSurrG_multiply)
 export(score_test_SynSurr_multiply)
