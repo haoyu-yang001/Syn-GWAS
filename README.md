@@ -5,5 +5,8 @@ Synthetic GWAS utilities for partially observed outcomes and surrogate-assisted 
 ## Installation
 
 ```r
-# install.packages("remotes")
-remotes::install_github("haoyu-yang001/SynGWAS")
+library(devtools)
+install_github("haoyu-yang001/Syn-GWAS",force = TRUE)
+library(withr)
+library(Matrix)
+library(SynGWAS)
