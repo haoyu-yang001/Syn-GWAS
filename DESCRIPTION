@@ -10,3 +10,12 @@ Description: Functions for Powerful synthetic genome-wide association studies.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports:
+    lattice,
+    data.table
+    dplyr,
+    Matrix,
+    GMMAT,
+    ranger,
+    parallel,
+    withr
