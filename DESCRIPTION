@@ -1,21 +1,27 @@
 Package: SynGWAS
 Type: Package
-Title: Powerful synthetic genome-wide association studies (Syn-GWAS) reveal proteomic genetic architecture in the UK Biobank Pharma Proteomics Project
+Title: Synthetic GWAS Methods for Partially Observed Outcomes and Surrogates
 Version: 0.1.0
-Authors@R: 
-    c(
-      person("Haoyu", "Yang", email = "you@example.com", role = c("aut", "cre"))
-    )
-Description: Functions for Powerful synthetic genome-wide association studies. 
+Authors@R:
+    person("Haoyu", "Yang", email = "you@example.com", role = c("aut", "cre"))
+Description: Tools for simulation and score tests (Oracle/Obs/SynSurr/SynSurrG variants) under relatedness and missingness with surrogate outcomes, including block-wise matrix operations for GRM-based covariance structures.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 4.1)
 Imports:
     lattice,
-    data.table
+    data.table,
     dplyr,
     Matrix,
     GMMAT,
     ranger,
     parallel,
-    withr
+    withr,
+    stats,
+    methods
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
