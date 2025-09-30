@@ -1,2 +1,9 @@
-# Syn-GWAS
-Powerful synthetic genome-wide association studies (Syn-GWAS) reveal proteomic genetic architecture in the UK Biobank Pharma 
+# SynGWAS
+
+Synthetic GWAS utilities for partially observed outcomes and surrogate-assisted inference under relatedness.
+
+## Installation
+
+```r
+# install.packages("remotes")
+remotes::install_github("haoyu-yang001/SynGWAS")
