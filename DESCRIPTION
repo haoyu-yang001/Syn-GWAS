@@ -4,7 +4,7 @@ Title: Synthetic GWAS Methods for Partially Observed Outcomes and Surrogates
 Version: 0.1.0
 Authors@R:
     person("Haoyu", "Yang", email = "you@example.com", role = c("aut", "cre"))
-Description: Tools for simulation and score tests (Oracle/Obs/SynSurr/SynSurrG variants) under relatedness and missingness with surrogate outcomes, including block-wise matrix operations for GRM-based covariance structures.
+Description: Tools for simulation and score tests under relatedness and missingness with surrogate outcomes, including block-wise matrix operations for GRM-based covariance structures.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
