@@ -1,0 +1,11 @@
+Package: mypkg
+Type: Package
+Title: Minimal Example R Package
+Version: 0.1.0
+Authors@R: 
+    person("Haoyu", "Name", email = "you@example.com", role = c("aut", "cre"))
+Description: A minimal example R package built on GitHub.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
