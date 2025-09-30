@@ -1,3 +1,6 @@
+#' @description （可选）更长说明
+#' @export
+
 find_blocks_vectorized <- function(A) {
   n <- nrow(A)
 
